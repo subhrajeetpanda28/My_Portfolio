@@ -61,6 +61,11 @@ function VisitGit() {
     window.open('https://github.com/subhrajeetpanda28', '_blank');
 }
 
+//Go to contact section
+function scrollToContact() {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}
+
 // Back to Top Button Visibility Toggle
 window.onscroll = function () {
     const btn = document.getElementById("backToTopBtn");
