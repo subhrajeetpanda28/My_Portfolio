@@ -338,6 +338,7 @@ nav dl dt a:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 0;
   }
   
 .container {
@@ -430,7 +431,26 @@ nav dl dt a:hover{
 .submit-btn:hover {
   background: #0056b3;
 }
+
 /* Contact Section Container Ends */
+
+/* Footer Section Starts */
+.container-footer {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.container-footer p {
+  margin: 0.5rem 0;
+}
+
+/* Footer Section Ends */
 
 /* RESPONSIVE DESIGN */
 
